@@ -598,8 +598,10 @@ a.social-media-logo-border:focus .social-media-logo {
   fill: var(--dark);
 }
 
-.modal-close-btn svg {
-  fill: var(--dark);
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: var(--pressed-state);
+  fill: var(--white-background);
 }
 
 .labelled-img {
@@ -622,7 +624,7 @@ a.social-media-logo-border:focus .social-media-logo {
   background: var(--pressed-state);
   width: 100%;
   height: 4px;
-  top: 44px;
+  top: 45px;
   border-radius: 2px;
 }
 
@@ -645,8 +647,9 @@ a.social-media-logo-border:focus .social-media-logo {
   transition: var(--transition);
 }
 
-.box:hover .box-overlay {
+.gallery-card:hover .box-overlay {
   transform: translatey(0);
+  transition: var(--transition);
 }
 
 .box-overlay p {
