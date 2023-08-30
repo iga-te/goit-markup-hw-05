@@ -613,7 +613,7 @@ a.social-media-logo-border:focus .social-media-logo {
   margin: 0 auto;
 }
 
-.nav-current {
+.menu .nav-current {
   position: relative;
   display: flex;
   color: var(--pressed-state);
